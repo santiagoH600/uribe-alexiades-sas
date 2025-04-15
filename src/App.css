@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body{
+    background: #f5f5dcc8;
+    font-family: "Signika Negative", sans-serif;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.App_body{
+    border: solid 4px;
+    border-radius: 5px;
+    margin: 3%;
+    background-image: url('./assets/hojas.svg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

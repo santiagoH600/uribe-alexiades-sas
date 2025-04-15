@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+.footer {
+  background-color: #d76b4ab0;
+  padding: 20px 0;
+  font-family: 'Courier Prime', monospace;
+  font-size: 15px;
+  color: black;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+}
+
+.footer-nav a:hover{
+  color: white;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-copy {
+  font-size: 10px;
+}
+
+.footer-right {
+  text-align: right;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+
+  .footer-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+  }
+
+  .footer-nav{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .footer-right{
+    margin: auto;
+
+  }
+
+}
