@@ -11,7 +11,7 @@ const App = () => {
 
   return (
 
-    <div className="App_body w-full md:w-1/2 lg:w-1/3">
+    <div className="App_body">
       <Navbar className = "Nav_bar" />
       <Hero />
       <About />

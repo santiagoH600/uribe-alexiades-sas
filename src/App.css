@@ -3,8 +3,6 @@
 body{
     background: #f5f5dcc8;
     font-family: "Signika Negative", sans-serif;
-    margin: auto;
-    margin-top: 20%;
 }
 
 .App_body{
@@ -12,7 +10,6 @@ body{
     border-radius: 5px;
     margin: 3%;
     background-image: url('./assets/hojas.svg');
-    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
 }

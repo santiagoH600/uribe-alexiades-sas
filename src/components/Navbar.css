@@ -1,17 +1,21 @@
 
 header {
     background: #d76b4ab0;
-    height: 260px;
+    height: 100%;
 }
 
 /* Título */
 .header_name {
     text-align: center;
     letter-spacing: 4px;
-    padding: 30px;
     font-size: 250%;
     font-weight: 500;
 }
+
+ul{
+    list-style: none;
+}
+
 
 #header_name {
     display: flex;

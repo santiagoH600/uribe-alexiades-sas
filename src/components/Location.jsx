@@ -5,15 +5,15 @@ const Location = () => {
         <section id="Location" className="location">
             <div className="map-container">
 
-                <div className="sub-title max-w-4xl mx-auto px-6">
-                    <h2 className=" title1 text-3xl font-bold mb-6">¿Quiénes somos?</h2>
-                    <p className=" text-info text-gray-700 text-lg leading-relaxed">
+                <div className="sub-title">
+                    <h2 className=" title1">¿Quiénes somos?</h2>
+                    <p className=" text-info">
                         Somos un equipo con más de 45 años de experiencia en el cuidado de pacientes en sus hogares y centros de tratamiento. Nuestro enfoque es ofrecer una atención personalizada, respetuosa y confiable, asegurando el bienestar y recuperación de cada persona. 
                     </p>
                 </div>
 
                 <div className="direccion">
-                    <h2 className=" title1 text-2xl font-bold text-center mb-4">Ubicación</h2>
+                    <h2 className=" title1">Ubicación</h2>
 
                     <p>KRA 7 # 67 02 OF 701</p>
                 </div>
@@ -23,7 +23,7 @@ const Location = () => {
                     width="700"
                     height="450"
                     allowFullScreen="no-referrer-when-downgrade"
-                    className=" w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+                    className=""
                 ></iframe>
                 
 
