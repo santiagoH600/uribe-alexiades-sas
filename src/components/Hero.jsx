@@ -2,31 +2,30 @@ import "./Hero.css";
 
 const Hero = () => {
     return (
-        <section id="Hero" className=" hero_content ">
-            {/* Barras decorativas */}
-            <div className="bar "></div>
-            <div className="">
-                <p id="tittle" className=" tittle ">
-                S E R V I C I O S <br />
-                </p>
-                <p id="tittle1" className="tittle">
-                <p className="font-normal">E S P E C I A L E S</p>
-                <p className="font-normal">DE</p>
-                </p>
-                <p id="tittle2" className="tittle">
-                    E N F E R M E R Í A
-                </p>
-                <p id="tittle3" className="tittle">
-                    <span>A</span> 
-                    <span>D O M I C I L I O</span></p>
-            </div>    
+        <section id="Hero" className="hero_content">
+        {/* Barras decorativas */}
             <div className="bar"></div>
-            <br />
-            {/* Boton */}
-            <button href="#about" className=" button-hero">
+
+            <div className="sub_bar">
+                <p id="tittle" className="tittle">S E R V I C I O S</p>
+
+                <div id="tittle1" className="tittle">
+                <span className="font-normal">E S P E C I A L E S</span>
+                <span className="font-normal">DE</span>
+                </div>
+
+                <p id="tittle2" className="tittle">E N F E R M E R Í A</p>
+
+                <div id="tittle3" className="tittle">
+                <span>A</span>
+                <span>D O M I C I L I O</span>
+                </div>
+            </div>
+
+            <div className="bar"></div>
+            <button href="#about" className="button-hero">
                 MÁS SOBRE NOSOTROS
             </button>
-
         </section>
     )
 }

@@ -53,6 +53,8 @@ textarea {
     color: black;
     cursor: pointer;
     padding: 2rem;
+    border: transparent;
+    background: none;
 }
 
 @media (max-width: 1024px) {

@@ -1,7 +1,6 @@
 .tittle {
     font-style: italic;
     text-align: center;
-    line-height: 1.8;
     font-weight: 500;
     font-size: 3.3rem;
 }
@@ -38,6 +37,7 @@ section{
     letter-spacing: 9px;
     display: flex;
     gap: 45px;
+    margin-bottom: 8%;
 }
 
 .button-hero{
@@ -53,6 +53,7 @@ section{
     margin: 5%;
     font-weight: bold;
     color: black;
+    cursor: pointer;
 
 }
 
@@ -67,9 +68,11 @@ section{
     .hero_content{
         margin-top: 28%;
     }
+
     .bar{
-        width: 75%;
+        width: 90%;
     }
+
     .tittle{
         font-size: 2rem;
     }

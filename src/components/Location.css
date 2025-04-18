@@ -5,6 +5,7 @@
     margin-top: 8%;
     background-color: #62b57e95;
     text-align: center;
+    height: 100%;
 }
 
 .text-info {
@@ -26,7 +27,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 900px;
     gap: 1.5rem;
 }
 
