@@ -15,7 +15,7 @@ const Navbar = () => {
                         {/* Título */}
                     <h1 id="header_name" className="header_name ">
                         <p>URIBE ALEXIADES</p>
-                        <p className="">SERVICIOS ESPECIALES SAS</p>
+                        <p className="sub_header">SERVICIOS ESPECIALES</p>
                     </h1>
 
                     {/* Botón hamburguesa */}
