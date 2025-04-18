@@ -64,27 +64,98 @@ section{
     border-color: #6d8b74;
 }
 
+/* === Pantallas hasta 1024px (laptops) === */
 @media (max-width: 1024px) {
-    .hero_content{
-        margin-top: 28%;
+    .hero_content {
+        margin-top: 20%;
     }
 
-    .bar{
-        width: 90%;
+    .bar {
+        width: 85%;
     }
 
-    .tittle{
+    .tittle {
         font-size: 2rem;
     }
 
-    .button-hero{
-        height: 50px;
-        font-size: 15px
+    .button-hero {
+        height: 55px;
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
+    #tittle1, #tittle3 {
+        gap: 30px;
     }
 }
 
+/* === Tablets hasta 768px === */
 @media (max-width: 768px) {
-    .bar{
+    .bar {
         width: 90%;
+    }
+
+    .tittle {
+        font-size: 1.8rem;
+    }
+
+    .button-hero {
+        height: 50px;
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    #tittle1, #tittle3 {
+        gap: 20px;
+    }
+}
+
+/* === Móviles hasta 480px === */
+@media (max-width: 480px) {
+    .sub_bar p {
+        font-size: 3rem;
+    }
+
+    .button-hero {
+        height: 45px;
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    #tittle {
+        letter-spacing: 5px;
+    }
+
+    #tittle1, #tittle2, #tittle3 {
+        letter-spacing: 2px;
+    }
+
+    .bar{
+        width: 75%;
+    }
+}
+
+/* === Móviles pequeños < 380px === */
+@media (min-width: 380px) {
+    .tittle {
+        font-size: 1rem;
+    }
+
+    .button-hero {
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+    .bar {
+        height: 5px;
+    }
+
+    #tittle{
+        letter-spacing: 11px;
+    }
+
+    #tittle1{
+        letter-spacing: 5px;
+        gap: 45px;
     }
 }
