@@ -5,6 +5,10 @@ header {
     padding: 1%;
 }
 
+.hamburger{
+    color: black;
+}
+
 /* Título */
 .header_name {
     text-align: center;
