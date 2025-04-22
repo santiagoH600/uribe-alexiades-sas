@@ -156,7 +156,7 @@ section{
 @media (min-width: 360px) and (max-width: 490px) {
     
     .tittle{
-        font-size: 10rem;
+        font-size: 1rem;
     }
 
     .button-hero {
@@ -168,12 +168,19 @@ section{
         height: 5px;
     }
 
-    #tittle{
-        letter-spacing: 11px;
+    #tittle {
+        letter-spacing: 6px;
     }
 
-    #tittle1{
-        letter-spacing: 5px;
-        gap: 45px;
+    #tittle1 {
+        letter-spacing: 3px;
+        gap: 10px;
+    }
+    #tittle2{
+        letter-spacing: 4px;
+    }
+
+    #tittle3{
+        letter-spacing: 2px;
     }
 }
