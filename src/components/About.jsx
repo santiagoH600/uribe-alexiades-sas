@@ -11,7 +11,7 @@ const About = () => {
                     <p className="title">Nos dirigimos a pacientes:</p>
                     <div className="bar-1"></div>
                         <ul className="patient-list">
-                            <li>Postoperatorios inmediantos, hasta su recuperanción.</li>
+                            <li>Postoperatorios inmediatos, hasta su recuperanción.</li>
                             <li>Enfermedades crónicas.</li>
                             <li>Acompañamiento y cuidados paliativos.</li>
                         </ul>

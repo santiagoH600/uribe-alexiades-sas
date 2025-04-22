@@ -38,6 +38,9 @@
 }
 
 iframe{
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
     border: solid 4px;
     border-radius: 25px;
 }

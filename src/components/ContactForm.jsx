@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
 import "./ContactForm.css";
+import sobre from "../assets/Sobre-carta.svg";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const ContactForm = () => {
             const response = await axios.post('http://localhost:5000/send', formData);
             if (response.data.success) {
                 alert("Mensaje enviado con éxito");
-                setFormData({ name: "", subject: "", message: ""});
+                setFormData({ name: "", email: "", message: ""});
             }
         } catch (err) {
             console.error(err);
@@ -61,7 +62,7 @@ const ContactForm = () => {
                 
                  <button className="btn-enviar" type="submit" >
                     ENVIAR
-                    <img src="/public/img/Sobre-carta.svg" alt="" width="50" />
+                    <img src={sobre} alt="icono de sobre" width="50" />
                 </button>
             </form>
            

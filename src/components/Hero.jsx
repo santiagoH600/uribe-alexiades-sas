@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
 
             <div className="bar"></div>
-            <button href="#about" className="button-hero">
+            <button className="button-hero" onClick={() => document.getElementById("about").scrollIntoView({ behavior: "smooth"})}>
                 MÁS SOBRE NOSOTROS
             </button>
         </section>
