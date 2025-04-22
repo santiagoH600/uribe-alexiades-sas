@@ -74,4 +74,8 @@ iframe{
     .title1{
         font-size: 2rem;
     }
+
+    .text-info{
+        font-size: 1rem;
+    }
 }
