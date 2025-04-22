@@ -145,6 +145,7 @@ section{
 
     .bar{
         width: 75%;
+        height: 6px;
     }
 
     .tittle{
@@ -165,7 +166,8 @@ section{
     }
 
     .bar {
-        height: 8px;
+        width: 75%;
+        height: 6px;
     }
 
     #tittle {

@@ -44,3 +44,38 @@ iframe{
     border: solid 4px;
     border-radius: 25px;
 }
+
+/* === Pantallas hasta 1024px (laptops) === */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* === Tablets hasta 768px === */
+@media (min-width: 640px) and (max-width: 767px) {
+
+}
+
+/* === Móviles hasta 480px === */
+@media (min-width: 500px) and (max-width: 639px) {
+
+    .title1{
+        font-size: 2rem;
+    }
+
+    .text-info{
+        font-size: 1rem;
+    }
+
+    .sub-title{
+        gap: 10px;
+    }
+
+}
+
+/* === Móviles pequeños < 380px === */
+@media (min-width: 360px) and (max-width: 490px) {
+
+    .title1{
+        font-size: 2rem;
+    }
+}
