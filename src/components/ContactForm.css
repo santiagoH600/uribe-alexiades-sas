@@ -28,12 +28,14 @@
 input{
     border-radius: 8px;
     width: 25rem;
+    border: black;
 }
 
 textarea {
     height: 7rem;
     border-radius: 10px;
     width: 25rem;
+    border: black;
 }
 
 .btn-enviar:hover {
@@ -57,14 +59,55 @@ textarea {
     background: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .title-form {
+/* === Pantallas hasta 1024px (laptops) === */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+/* === Tablets hasta 768px === */
+@media (min-width: 640px) and (max-width: 767px) {
+
+}
+/* === Móviles hasta 480px === */
+@media (min-width: 500px) and (max-width: 639px) {
+
+    .title-form{
         font-size: 2rem;
     }
-}
 
-@media (max-width: 768px) {
-    .title-form {
-        text-align: center;
+    .form-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    textarea{
+        width: 15rem;
+    }
+
+    input{
+        width: 15rem;
+        height: 2rem;
+    }
+}
+/* === Móviles pequeños < 380px === */
+@media (min-width: 360px) and (max-width: 490px) {
+
+    .title-form{
+        font-size: 2rem;
+    }
+
+    .form-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    textarea{
+        width: 15rem;
+    }
+
+    input{
+        width: 15rem;
+        height: 2rem;
     }
 }
