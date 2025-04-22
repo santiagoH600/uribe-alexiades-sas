@@ -72,7 +72,8 @@ section{
 }
 
 /* === Pantallas hasta 1024px (laptops) === */
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+
     .hero_content {
         margin-top: 20%;
     }
@@ -97,13 +98,13 @@ section{
 }
 
 /* === Tablets hasta 768px === */
-@media (max-width: 768px) {
+@media (min-width: 640px) and (max-width: 767px) {
     .bar {
         width: 90%;
     }
 
     .tittle {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .button-hero {
@@ -118,10 +119,7 @@ section{
 }
 
 /* === Móviles hasta 480px === */
-@media (max-width: 480px) {
-    .sub_bar p {
-        font-size: 3rem;
-    }
+@media (min-width: 480px) and (max-width: 639px) {
 
     .button-hero {
         height: 45px;
@@ -140,10 +138,18 @@ section{
     .bar{
         width: 75%;
     }
+
+    .tittle{
+        font-size: 1.5rem;
+    }
 }
 
 /* === Móviles pequeños < 380px === */
-@media (width <= 380px) {
+@media (min-width: 360px) and (max-width: 479px) {
+    
+    .tittle{
+        font-size: rem;
+    }
 
     .button-hero {
         height: 40px;
