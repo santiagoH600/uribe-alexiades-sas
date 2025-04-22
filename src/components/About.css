@@ -93,5 +93,20 @@
 
 /* === Móviles pequeños < 380px === */
 @media (min-width: 360px) and (max-width: 490px) {
+    .sub-about{
+        font-size: 10px;
+    }
 
+    .container p{
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .patient-list{
+        margin-left: auto;
+    }
+
+    .patient-list li{
+        font-size: 6px;
+    }
 }
