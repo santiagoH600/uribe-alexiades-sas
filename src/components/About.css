@@ -57,24 +57,41 @@
 }
 
 @media (max-width: 768px) {
+
+}
+
+/* === Pantallas hasta 1024px (laptops) === */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* === Tablets hasta 768px === */
+@media (min-width: 640px) and (max-width: 767px) {
+
+}
+
+/* === Móviles hasta 480px === */
+@media (min-width: 500px) and (max-width: 639px) {
     .sub-about{
         font-size: 25px;
     }
 
-    .title{
-        width: 400px;
-        font-size: 1.8rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .title{
-        font-size: 2rem;
-        width: 450px;
+    .container p{
+        font-size: 20px;
+        width: 250px;
     }
 
     .patient-list{
-        font-size: 1.2rem;
+        margin-left: auto;
     }
+
+    .patient-list li{
+        font-size: 11px;
+    }
+
+}
+
+/* === Móviles pequeños < 380px === */
+@media (min-width: 360px) and (max-width: 490px) {
 
 }
