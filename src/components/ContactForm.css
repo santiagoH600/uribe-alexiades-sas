@@ -116,7 +116,6 @@ textarea {
     .content-form{
         display: flex;
         flex-direction: column;
-
         gap: 10px;
     }
 
@@ -141,8 +140,14 @@ textarea {
         font-size: 2rem;
     }
 
+    .content-form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .content-form p{
-        font-size: 0.5rem;
+        font-size: 20px;
     }
 
     textarea{
