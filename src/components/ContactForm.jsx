@@ -32,6 +32,14 @@ const ContactForm = () => {
 
     return (
         <section id="ContactForm" className="contact-form">
+            <div className="form-contact">
+                <h2>CONTACTANOS</h2>
+                <div className="content-form">
+                    <p>Telefonos: 2127924 - 9279987</p>
+                    <p>Email: clemenciauribe@hotmail.com</p>
+                </div>
+                
+            </div>
             <h2 className="title-form">Remítanos su mensaje</h2>
             <form onSubmit={handleSubmit} className="form-container1">
                 <div className="form-container">
