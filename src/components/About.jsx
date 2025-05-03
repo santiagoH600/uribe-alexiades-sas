@@ -3,7 +3,8 @@ import "./About.css"
 const About = () => {
     return (
         <section id="about" className="about">
-            <p className="sub-about">Más de 45 años de experiencia cuidando a pacientes en sus residencias y lugares de tratamiento.</p>
+            <p className="sub-about">Servicio fundado por su actual gerente, Clemencia Uribe de Alexiades, quien cuenta con más de 40 años de experiencia en el cuidado de pacientes en sus residencias y lugares de tratamiento.
+            </p>
             <br />
             <br />
             <br />
