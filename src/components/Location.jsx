@@ -8,7 +8,19 @@ const Location = () => {
                 <div className="sub-title">
                     <h2 className=" title1">¿Quiénes somos?</h2>
                     <p className=" text-info">
-                        Somos un equipo con más de 45 años de experiencia en el cuidado de pacientes en sus hogares y centros de tratamiento. Nuestro enfoque es ofrecer una atención personalizada, respetuosa y confiable, asegurando el bienestar y recuperación de cada persona. 
+                        
+                        Somos un servicio de cuidado a domicilio con auxiliares de enfermería que cuentan con:
+
+                    </p>
+                    <ul className="sub-text-info">
+                        <li>-	Formación académica.</li>
+                        <li>-	Registro ante la Secretaría de Salud.</li>
+                        <li>-	Cobertura de seguridad social y riesgos profesionales.</li>
+                        <li>-	Supervisión de enfermería profesional.</li>
+                    </ul>
+
+                    <p className="sub-text-information">
+                        Nuestro enfoque consiste en ofrecer una atención personalizada, respetuosa y confiable, donde se asegure el bienestar del paciente y la tranquilidad de su familia.
                     </p>
                 </div>
 
