@@ -33,9 +33,9 @@ const ContactForm = () => {
     return (
         <section id="ContactForm" className="contact-form">
             <div className="form-contact">
-                <h2>CONTACTANOS</h2>
+                <h2>CONTÁCTENOS</h2>
                 <div className="content-form">
-                    <p>Telefonos: 2127924 - 9279987</p>
+                    <p>Teléfono: 3002121229</p>
                     <p>Email: clemenciauribe@hotmail.com</p>
                 </div>
                 
