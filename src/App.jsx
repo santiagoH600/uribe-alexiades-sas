@@ -6,12 +6,14 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import "./App.css";
 import WhatsAppButton from "./components/WhatsAppButton";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 const App = () => {
 
   return (
 
     <div className="App_body">
+      <ParticlesBackground />
       <Navbar className = "Nav_bar" />
       <Hero />
       <About />
